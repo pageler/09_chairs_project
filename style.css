@@ -1,0 +1,63 @@
+/* Font Imports */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+/* Resets */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Variables */
+:root {
+    --main-color: #e3e8e4;
+    --primary-color: #363636;
+    --main-font: "Playfair Display", serif;
+}
+
+/* Nav */
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    font-family: sans-serif;
+    padding: 10px;
+}
+
+ul li {
+    display: inline;
+    list-style: none;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #000;
+    margin-left: 4rem;
+}
+
+ul li a:hover {
+    border-bottom: 2px solid var(--primary-color);
+}
+
+.btn-fill {
+    padding: 10px 30px;
+    background-color: var(--primary-color);
+    border: none;
+    border-radius: 100px;
+    color: #fff;
+    cursor: pointer;
+    text-align: center;
+    box-shadow: 0 9px #999;
+    transition: background-color 0.5s ease-in, transform 0.2s ease;
+}
+
+.btn-fill:hover {
+    background-color: rgb(120, 67, 41);
+}
+
+.btn-fill:active {
+    background-color: rgb(120, 67, 41);
+    box-shadow: 0 5px #666;
+    transform: translateY(2px);
+}
