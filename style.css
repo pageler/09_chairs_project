@@ -61,3 +61,67 @@ ul li a:hover {
     box-shadow: 0 5px #666;
     transform: translateY(2px);
 }
+
+/* Header */
+.btn-outline {
+    background-color: transparent;
+    padding: 10px 20px;
+    border: 2px solid var(--primary-color);
+    border-radius: 100px;
+    margin-left: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    text-align: center;
+    box-shadow: 0 9px #999;
+    transition: background-color 0.5s ease-in, transform 0.2s ease;
+}
+.btn-outline:hover {
+    background-color: rgb(120, 67, 41);
+    color: #fff;
+}
+
+.btn-outline:active {
+    background-color: rgb(120, 67, 41);
+    color: #fff;
+    box-shadow: 0 5px #666;
+    transform: translateY(2px);
+}
+
+header {
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.content-container {
+    margin-left: 6rem;
+}
+
+.main-headings {
+    font-size: rem;
+    font-family: var(--main-font);
+    font-weight: 200;
+    color: #00004f;
+    margin-bottom: 2rem;
+}
+
+.main-headings span {
+    color: #000;
+    font-weight: bold;
+}
+
+.primary-heading {
+    max-width: 500px;
+    font-family: sans-serif;
+    line-height: 25px;
+    margin-bottom: 2rem;
+}
+
+.img-container img {
+    width: 400px;
+    height: 500px;
+    margin-left: 20px;
+    margin-bottom: 40px;
+}
