@@ -125,3 +125,26 @@ header {
     margin-left: 20px;
     margin-bottom: 40px;
 }
+
+/* Popularity */
+.popularity {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.popularity div {
+    margin-right: 5rem;
+}
+
+.popularity div h1 {
+    font-size: 3rem;
+    text-align: center;
+    color: #34343e;
+    font-family: var(--main-font);
+}
+
+.popularity div p {
+    color:#34343e;
+    font-family: sans-serif;
+}
