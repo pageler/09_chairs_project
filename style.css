@@ -148,3 +148,84 @@ header {
     color:#34343e;
     font-family: sans-serif;
 }
+
+/* Products */
+.products-heading {
+    text-align: center;
+    margin-top: 10rem;
+    margin-bottom: 5rem;
+    font-size: 4rem;
+    color: #00004f
+}
+
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.product {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.product .product-img-layer {
+    background-color: var(--main-color);
+    border-top-left-radius: 200px;
+    border-top-right-radius: 200px;
+    padding: 20px;
+}
+
+.product .product-img-layer .img {
+    width: 200px;
+    height: 200px;
+}
+
+.product .product-img-layer .img-one {
+    background-image: url(images/chair2.avif);
+    background-size: cover;
+    background-position: center;
+}
+
+.product .product-img-layer .img-two {
+    background-image: url(images/chair1.avif);
+    background-size: cover;
+    background-position: center;
+}
+
+.product .product-img-layer .img-three {
+    background-image: url(images/chair3--BRUNO-CERVERA.avif);
+    background-size: cover;
+    background-position: center;
+}
+
+.product-content {
+    background-color: var(--primary-color);
+    padding: 27px;
+    padding-bottom: 50px;
+    text-align: center;
+    color: #fff;
+}
+
+.product-content .product-name {
+    font-family: sans-serif;
+    margin-bottom: 10px;
+}
+
+.btn-container {
+    text-align: center;
+}
+
+.btn-container button {
+    border: none;
+    background-color: transparent;
+    font-size: 2rem;
+    cursor: pointer;
+    margin: 0 auto;
+    margin-left: 20px;
+    margin-top: 20px;
+}
