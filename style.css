@@ -345,3 +345,48 @@ header {
     width: 350px;
     height: 450px;
 }
+
+/* Footer */
+footer {
+    background-color: var(--primary-color);
+    margin-top: 10rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+    color: #fff;
+}
+
+footer .logo-container h1 {
+    font-size: 4rem;
+    font-family: var(--main-font);
+    margin-bottom: 20px;
+}
+
+footer .logo-container p {
+    max-width: 400px;
+    font-family: sans-serif;
+    line-height: 25px;
+}
+
+footer .about-company {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .about-company .container {
+    margin-right: 40px;
+    margin-top: 20px;
+}
+
+.about-company .container h1 {
+    margin-bottom: 50px;
+}
+
+.about-company .container p {
+    font-family:  sans-serif;
+    margin-bottom: 20px;
+}
+
